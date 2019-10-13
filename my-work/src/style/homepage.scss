@@ -69,6 +69,7 @@ section {
   }
   p {
     font-size: 1.5rem;
+    padding-top: 40px;
   }
 
   /* Section Images */
@@ -83,11 +84,11 @@ section {
     }
 
     &#about {
-      background: url('https://images.unsplash.com/photo-1473261422289-ece70cf625d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=90') no-repeat center center/cover;;
+      background: url('../images/about.webp') no-repeat center center/cover;;
     }
 
     &#projects {
-      background: url('../images/project.jpeg') no-repeat center center/cover;;
+      background: url('../images/projects.jpg') no-repeat center center/cover;;
       ul{
         height: 10%;
         a{
@@ -97,9 +98,16 @@ section {
           font-family: monospace;
         }
       }
+      h1 {
+        a{
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #ffffff !important;
+        }
+      }
     }
 
     &#contact {
-      background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
+      background: url('../images/contact.jpg') no-repeat center center/cover;;
     }
 }
